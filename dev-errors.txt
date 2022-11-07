@@ -1,0 +1,4 @@
+1. При самоустановке могут произойти критические ошибки,в случае таких попробуйте установить вручную всё необходимое:
+	pkg install python3
+	pkg install openssl
+	pip install -r requarements.txt
