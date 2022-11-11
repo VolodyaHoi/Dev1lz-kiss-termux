@@ -1,5 +1,6 @@
 # checking ip
 
+# libs
 import subprocess
 from pif import get_public_ip
 from colorama import Fore, Back, Style
@@ -10,13 +11,13 @@ from json import load
 import os
 
 
-print(Fore.GREEN + "[" + Fore.MAGENTA + "x" + Fore.GREEN + "]" + Style.RESET_ALL + " YOUR IP: " + get_public_ip())
+print(Fore.GREEN + "[" + Fore.MAGENTA + "x" + Fore.GREEN + "]" + Style.RESET_ALL + " YOUR IP: " + get_public_ip()) # your ip address
 print(" ")
 
-getIP = input(Fore.GREEN + "[" + Fore.CYAN + "DK" + Fore.GREEN + "]" + Style.RESET_ALL + " Enter IP Address >>> ")
+getIP = input(Fore.GREEN + "[" + Fore.CYAN + "DK" + Fore.GREEN + "]" + Style.RESET_ALL + " Enter IP Address >>> ") # enter ip address
 url = "https://ipinfo.io/" + getIP + "/json"
 
-try:
+try: # get info about entered ip address
     url = "https://ipinfo.io/" + getIP + "/json"
     getInfo = urllib.request.urlopen(url)
     infoList = json.load(getInfo)
@@ -31,6 +32,6 @@ try:
     print(Fore.GREEN + "[" + Fore.MAGENTA + "+" + Fore.GREEN + "]" + Style.RESET_ALL + " Postal: ", infoList["postal"])
     print(Fore.GREEN + "[" + Fore.MAGENTA + "+" + Fore.GREEN + "]" + Style.RESET_ALL + " Timezone: ", infoList["timezone"])          
         
-except:
+except: # error
     print(" ")
     print(Fore.GREEN + "[" + Fore.RED + "ERROR" + Fore.GREEN + "]" + Fore.CYAN + " Invalid IP Address!" + Style.RESET_ALL)
