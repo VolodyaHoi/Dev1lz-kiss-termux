@@ -1,4 +1,6 @@
 pif
 colorama
 requests
-
+json
+os
+urllib
