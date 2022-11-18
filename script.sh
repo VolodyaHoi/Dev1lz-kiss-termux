@@ -47,7 +47,7 @@ echo -e "\033[32m[\033[31mINFO\033[32m] \033[36mDownloading requarements..."
 
 echo -e "\033[35m=================================\033[32m"
 
-python3 scripts\install_requarements.py # install requarements for python scripts
+python3 scripts/install_requarements.py # install requarements for python scripts
 
 echo -e "\033[35m================================="
 
@@ -78,10 +78,10 @@ do
 	read cmdN
 	echo " "
 	if [ "$cmdN" = "ip" ]; then # completed [ IP CHECKER ]
-		python3 scripts\ip_func.py
+		python3 scripts/ip_func.py
 		echo " "
 	elif [ "$cmdN" = "pn" ]; then # completed [ PHONE NUMBER CHECKER ]
-		python3 scripts\pn_func.py
+		python3 scripts/pn_func.py
 		echo " "
 	elif [ "$cmdN" = "cProxy" ]; then # comming soon
 		echo -e "\033[32m[\033[31mERROR\033[32m] \033[36mOops! This functiong comming soon.."
