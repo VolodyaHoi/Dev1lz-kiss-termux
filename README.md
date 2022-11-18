@@ -18,17 +18,13 @@ What is the "Devil's Kiss"? This is a bash script, using python scripts, designe
 
 ## Screenshots:
 
+<img src="https://sun9-61.userapi.com/impg/FkqnQy5mTgV9A7R_CL6p8cciVXRtzh1I6Ww5ag/XpQBilLeaso.jpg?size=885x453&quality=96&sign=ec26bf75c328174802bc3c7bcfd9b424&type=album" alt="si" width="500" height="500"/>
+
 > Self-installation
 
+<img src="https://sun9-38.userapi.com/impg/-VPfMXIylbgSeWijSjIw_9WISYb58q-uxK5luw/-Co9csT_qmc.jpg?size=885x412&quality=96&sign=94773bfe763214384ba60adb846d0437&type=album" alt="si2" width="500" height="500"/>
+
 > Main menu
-
-> Get IP address
-
-> Get Phone Number
-
-> Edit cfg
-
-> Get help
 
 ## Features:
 
